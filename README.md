@@ -19,11 +19,11 @@ The IMDB Advanced data scraper supports the following features:
 -   Scrape artist detail - Scrape any artist and their information.
 
 ## What are the advantages of this actor compared to others?
-This actor is extremely optimized, very fast and provides at least 5x more data than the other actors or projects that you might experienced. Also, it is actively maintained so if you need any kind of features, you can inform me from [here](https://github.com/tugkan/imdb-advanced-scraper/issues) and I can make it for free.
+This actor is extremely optimized, very fast and provides at least 5x more data than the other actors or projects that you might experienced.
 
 ## Bugs, fixes, updates and changelog
 
-This scraper is under active development. If you have any feature requests you can create an issue from [here](https://github.com/tugkan/imdb-advanced-scraper/issues).
+This scraper is under active development. If you have any feature requests you can create an issue from [here](https://github.com/epctex/imdb-advanced-scraper/issues).
 
 ## Input Parameters
 
