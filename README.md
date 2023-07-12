@@ -1,8 +1,10 @@
+[https://apify.com/epctex/imdb-advanced-scraper](https://apify.com/epctex/imdb-advanced-scraper?fpr=yhdrb)
+
 # Actor - IMDB Advanced Scraper
 
 ## IMDB Advanced scraper
 
-Since IMDB doesn't provide a good and free API, this actor should help you to retrieve data from it. This actor can provide you very detailed output from IMDB.
+Since IMDB doesn't provide a good and free API, this actor should help you to retrieve data from it. This actor can provide you with very detailed output from IMDB.
 
 The IMDB Advanced data scraper supports the following features:
 
@@ -10,18 +12,18 @@ The IMDB Advanced data scraper supports the following features:
 
 -   Scrape lists - Scrape any list that you'd like to get from IMDB
 
--   Scrape any search result - You can search for keywords, artists, movies, companies and many more!
+-   Scrape any search result - You can search for keywords, artists, movies, companies, and many more!
 
--   Scrape genres - If you want to get most read books on a certain category or anything related the genres, just type the url.
+-   Scrape genres - If you want to get the most read books on a certain category or anything related to the genres, just type the URL.
 
--   Scrape movie detail - Scrape a very detailed information for each of the movies that you'd like to get.
+-   Scrape movie detail - Scrape very detailed information for each of the movies that you'd like to get.
 
 -   Scrape artist detail - Scrape any artist and their information.
 
 ## What are the advantages of this actor compared to others?
-This actor is extremely optimized, very fast and provides at least 5x more data than the other actors or projects that you might experienced.
+This actor is extremely optimized, very fast, and provides at least 5x more data than the other actors or projects that you might experience.
 
-## Bugs, fixes, updates and changelog
+## Bugs, fixes, updates, and changelog
 
 This scraper is under active development. If you have any feature requests you can create an issue from [here](https://github.com/epctex/imdb-advanced-scraper/issues).
 
@@ -31,19 +33,19 @@ The input of this scraper should be JSON containing the list of pages on IMDB th
 
 - `search`: (Optional) (String) Keyword that you want to search on IMDB.
 
-- `mode`: (Optional) (String) Mode of search. This attribute has to be initiated when search keyword is provided. The options are: `all`, `tt` (Titles), `ep` (TV Episodes),`nm` (Names),`co` (Companies),`kw` (Keywords).
+- `mode`: (Optional) (String) Mode of search. This attribute has to be initiated when a search keyword is provided. The options are: `all`, `tt` (Titles), `ep` (TV Episodes),`nm` (Names),`co` (Companies),`kw` (Keywords).
 
-- `startUrls`: (Optional) (Array) List of IMDB URLs. You should only provide list, title, name, search and find URLs.
+- `startUrls`: (Optional) (Array) List of IMDB URLs. You should only provide a list, title, name, search and find URLs.
 
-- `endPage`: (Optional) (Number) Final number of page that you want to scrape. Default is `Infinite`. This is applies to all `search` request and `startUrls` individually.
+- `endPage`: (Optional) (Number) Final number of page that you want to scrape. The default is `Infinite`. This applies to all `search` requests and `startUrls` individually.
 
 - `maxItems`: (Optional) (Number) You can limit scraped items. This should be useful when you search through the big lists or search results.
 
 - `proxy`: (Required) (Proxy Object) Proxy configuration.
 
-- `extendOutputFunction`: (Optional) (String) Function that takes a JQuery handle ($) as argument and returns object with data.
+- `extendOutputFunction`: (Optional) (String) Function that takes a JQuery handle ($) as an argument and returns an object with data.
 
-- `customMapFunction`: (Optional) (String) Function that takes each objects handle as argument and returns object with executing the function.
+- `customMapFunction`: (Optional) (String) Function that takes each object's handle as an argument and returns the object with executing the function.
 
 This solution requires the use of **Proxy servers**, either your own proxy servers or you can use [Apify Proxy](https://www.apify.com/docs/proxy).
 
@@ -53,11 +55,11 @@ When you want to have a scrape over a specific item URL, just copy and paste the
 
 If you would like to scrape only the first page of a list then put the link for the page and have the `endPage` as 1.
 
-With the last approach that explained above you can also fetch any interval of pages. If you provide the 5th page of a list and define the `endPage` parameter as 6 then you'll have the 5th and 6th pages only.
+With the last approach that is explained above you can also fetch any interval of pages. If you provide the 5th page of a list and define the `endPage` parameter as 6 then you'll have the 5th and 6th pages only.
 
 ### Compute Unit Consumption
 
-The actor optimized to run blazing fast and scrape many as items as possible. Therefore, it forefronts all item detail requests. If actor doesn't block very often it'll scrape 100 items in 1 minute with ~0.03-0.06 compute units.
+The actor is optimized to run blazing fast and scrape many items as possible. Therefore, it forefronts all item detail requests. If the actor doesn't block very often it'll scrape 100 items in 1 minute with ~0.03-0.06 compute units.
 
 ### IMDB Advanced Scraper Input example
 
@@ -83,13 +85,13 @@ The actor optimized to run blazing fast and scrape many as items as possible. Th
 During the run, the actor will output messages letting you know what is going on. Each message always contains a short label specifying which page from the provided list is currently specified.
 When items are loaded from the page, you should see a message about this event with a loaded item count and total item count for each page.
 
-If you provide incorrect input to the actor, it will immediately stop with failure state and output an explanation of what is wrong.
+If you provide incorrect input to the actor, it will immediately stop with a failure state and output an explanation of what is wrong.
 
 ## IMDB Export
 
 During the run, the actor stores results into a dataset. Each item is a separate item in the dataset.
 
-You can manage the results in any languague (Python, PHP, Node JS/NPM). See the FAQ or <a href="https://www.apify.com/docs/api" target="blank">our API reference</a> to learn more about getting results from this IMDB Advanced actor.
+You can manage the results in any language (Python, PHP, Node JS/NPM). See the FAQ or <a href="https://www.apify.com/docs/api" target="blank">our API reference</a> to learn more about getting results from this IMDB Advanced actor.
 
 ## Scraped IMDB Properties
 
@@ -737,4 +739,4 @@ The structure of each item in IMDB looks like this:
 ```
 
 ## Contact
-Please visit us through [epctex.com](https://epctex.com) to see all the products that is available for you. If you are looking for any custom integration or so, please reach out to us through the chat box in [epctex.com](https://epctex.com). In need of support? [devops@epctex.com](mailto:devops@epctex.com) is at your service.
+Please visit us through [epctex.com](https://epctex.com) to see all the products that are available for you. If you are looking for any custom integration or so, please reach out to us through the chat box in [epctex.com](https://epctex.com). In need of support? [devops@epctex.com](mailto:devops@epctex.com) is at your service.
